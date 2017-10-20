@@ -1,0 +1,7 @@
+{
+    "server": {
+        "host": "localhost",
+        "port": "3333",
+        "intervalToShutdown": 10
+    }
+}
