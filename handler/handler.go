@@ -11,6 +11,7 @@ func New() http.Handler {
 	mux := http.NewServeMux()
 
 	mux.HandleFunc("/hello", h.hello)
+	mux.HandleFunc("/delay", h.delay)
 
 	return mux
 }
